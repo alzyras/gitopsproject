@@ -2,6 +2,4 @@ apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 
 resources:
-- ./apps/nginx
-- ./apps/2048
-- ./apps/ingress-nginx
+- application.yaml
