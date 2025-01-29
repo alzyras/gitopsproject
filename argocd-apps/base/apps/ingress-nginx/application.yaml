@@ -11,7 +11,7 @@ spec:
     namespace: lab
   project: default
   source:
-    path: gitops/nginx
+    path: gitops/ingress-nginx
     repoURL: https://github.com/alzyras/gitopsproject.git
     targetRevision: main
   syncPolicy:
