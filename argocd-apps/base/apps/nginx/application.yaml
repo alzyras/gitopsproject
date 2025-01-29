@@ -12,11 +12,9 @@ spec:
   project: default
   source:
     path: gitops/nginx
-    repoURL: https://github.com/AurimasNav/lab-k3s.git
+    repoURL: https://github.com/alzyras/gitopsproject.git
     targetRevision: main
   syncPolicy:
     automated:
       prune: true
       selfHeal: true
-
- 
